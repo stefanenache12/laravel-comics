@@ -3,7 +3,11 @@
 @section('page-title', 'Homepage')
 
 @section('main-content')
-    <h1>
-        HOMEPAGE
-    </h1>
+    {{-- @foreach ($comics as $InnerComics)
+        <ul>
+            @foreach ($InnerComics as $comic)
+                <li>{{ $comic }}</li>
+            @endforeach
+        </ul>
+    @endforeach --}}
 @endsection
