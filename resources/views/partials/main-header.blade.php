@@ -1,6 +1,5 @@
 @php
     $menu = [
-    'HOME',
     'COMICS',
     'MOVIES',
     'TV',
@@ -20,6 +19,7 @@
 
     <div class="menu">
         <div class="single-menu">
+            <a href="/">HOME</a>
             @foreach ($menu as $item)
                 <a href="/{{ strtolower($item) }}">{{ $item }}</a>
             @endforeach
